@@ -1,0 +1,57 @@
+/* Simple Inline Grid system START */
+.gridr:parent{
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+.gridr{
+	display: inline-block;
+	margin: 0 -2px;
+	padding: 10px;
+  vertical-align: top;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+@media screen and (min-width: 993px){
+	.l-14{ width: 25%;}
+	.l-34{ width: 75%;}
+	.l-15{ width: 20%;}
+	.l-25{ width: 40%;}
+	.l-35{ width: 60%;}
+  .l-45{ width: 80%;}
+	.l-13{ width: 33.33%;}
+	.l-23{ width: 66.66%;}
+	.l-12{ width: 50%;}
+	.l-16{ width: 16.667%;}
+	.l-17{ width: 14.285%;}
+	.l-11{ width:100%;}
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.m-14{ width: 25%;}
+	.m-34{ width: 75%;}
+	.m-15{ width: 20%;}
+	.m-25{ width: 40%;}
+	.m-35{ width: 60%;}
+  .m-45{ width: 80%;}
+	.m-13{ width: 33.33%;}
+	.m-23{ width: 66.66%;}
+	.m-12{ width: 50%;}
+	.m-16{ width: 16.667%;}
+	.m-17{ width: 14.285%;}
+	.m-11{ width: 100%;}
+}
+@media screen and (max-width: 767px) {
+	.s-14{ width: 25%;}
+	.s-34{ width: 25%;}
+	.s-15{ width: 20%;}
+	.s-25{ width: 40%;}
+	.s-35{ width: 60%;}
+  .s-45{ width: 80%;}
+	.s-13{ width: 33.33%;}
+	.s-12{ width: 50%;}
+	.s-16{ width: 16.667%;}
+	.s-17{ width: 14.285%;}
+	.s-11{ width: 100%;}
+}
+/* Simple Inline Grid system END*/
