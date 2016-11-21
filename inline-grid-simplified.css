@@ -1,17 +1,19 @@
 /* Simple Inline Grid system START */
-.gridr:parent{
+html {
 	-webkit-box-sizing: border-box !important;
 	-moz-box-sizing: border-box !important;
 	box-sizing: border-box !important;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
 }
 .gridr{
 	display: inline-block;
 	margin: 0 -2px;
 	padding: 10px;
   vertical-align: top;
-	-webkit-box-sizing: border-box !important;
-	-moz-box-sizing: border-box !important;
-	box-sizing: border-box !important;
 }
 @media screen and (min-width: 993px){
 	.l-14{ width: 25%;}
