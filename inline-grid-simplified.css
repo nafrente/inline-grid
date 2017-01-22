@@ -13,7 +13,7 @@ html {
 	display: inline-block;
 	margin: 0 -2px;
 	padding: 10px;
-  vertical-align: top;
+	vertical-align: top;
 }
 @media screen and (min-width: 993px){
 	.l-14{ width: 25%;}
@@ -21,7 +21,7 @@ html {
 	.l-15{ width: 20%;}
 	.l-25{ width: 40%;}
 	.l-35{ width: 60%;}
-  .l-45{ width: 80%;}
+	.l-45{ width: 80%;}
 	.l-13{ width: 33.33%;}
 	.l-23{ width: 66.66%;}
 	.l-12{ width: 50%;}
@@ -35,7 +35,7 @@ html {
 	.m-15{ width: 20%;}
 	.m-25{ width: 40%;}
 	.m-35{ width: 60%;}
-  .m-45{ width: 80%;}
+	.m-45{ width: 80%;}
 	.m-13{ width: 33.33%;}
 	.m-23{ width: 66.66%;}
 	.m-12{ width: 50%;}
@@ -49,7 +49,7 @@ html {
 	.s-15{ width: 20%;}
 	.s-25{ width: 40%;}
 	.s-35{ width: 60%;}
-  .s-45{ width: 80%;}
+	.s-45{ width: 80%;}
 	.s-13{ width: 33.33%;}
 	.s-12{ width: 50%;}
 	.s-16{ width: 16.667%;}
